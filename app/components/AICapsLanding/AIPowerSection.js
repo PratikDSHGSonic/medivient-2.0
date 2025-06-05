@@ -54,20 +54,6 @@ const AIPowerSection = () => {
                 automating precise coding, and streamlining efficient billing
               </h2>
             </div>
-
-            {/* Right Side - Capabilities List */}
-            {/* <div className="space-y-12 items-center">
-              {capabilities.map((item, index) => (
-                <div key={index}>
-                  <h3 className="text-xl lg:text-2xl font-semibold text-white tracking-wide mb-2">
-                    {item.title}
-                  </h3>
-                  <p className="text-lg lg:text-xl text-gray-200 font-light">
-                    {item.description}
-                  </p>
-                </div>
-              ))}
-            </div> */}
             <div className="space-y-12 max-w-2xl mx-auto">
               {capabilities.map((item, index) => (
                 <div key={index}>

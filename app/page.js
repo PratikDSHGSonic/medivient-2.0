@@ -11,26 +11,34 @@ import StatsSection from './components/Other/StatsSection'
 import Toast from './components/Snackbar/Toast';
 import Footer from './components/layout/Footer/Footer'
 import Navbar from './components/layout/Navbar/Navbar'
+import PerfectForSection from './components/PerfectForSection/PerfectForSection'
+import CoreFeaturesSection from './components/CoreFeaturesSection/CoreFeaturesSection'
+import KeyBenefitsSection from './components/KeyBenefitsSection/KeyBenefitsSection'
 
 export default function Home() {
   return (
     <>
-    <main>
-    <div className="pt-[72px]">
+      <main>
+        <div className="pt-[72px]">
           <Navbar />
         </div>
-      <SearchComponent />
-      <AIPowerSection />
-      <TechnologySection />
-      {/* <VideoHero /> */}
-      <ExploreSection />
-      {/* <OurScience /> */}
-      {/* <StatsSection /> */}
-      {/* <PressReleases /> */}
-      <Footer />
-    </main>
-       <Toast />
-       </>
+        <SearchComponent />
+        <KeyBenefitsSection />
+        <CoreFeaturesSection />
+        <AIPowerSection />
+        <TechnologySection />
+        {/* <VideoHero /> */}
+        <ExploreSection />
+
+
+        {/* <OurScience /> */}
+        {/* <StatsSection /> */}
+        {/* <PressReleases /> */}
+        <PerfectForSection />
+        <Footer />
+      </main>
+      <Toast />
+    </>
   )
 }
 
